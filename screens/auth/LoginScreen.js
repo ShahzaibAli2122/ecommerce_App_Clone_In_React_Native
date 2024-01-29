@@ -146,6 +146,49 @@ const LoginScreen = ({ navigation }) => {
               placeholderTextColor={colors.muted}
               radius={5}
             />
+            <CustomInput
+              value={password}
+              setValue={setPassword}
+              secureTextEntry={true}
+              placeholder={"Password"}
+              placeholderTextColor={colors.muted}
+              radius={5}
+            /><CustomInput
+            value={password}
+            setValue={setPassword}
+            secureTextEntry={true}
+            placeholder={"Password"}
+            placeholderTextColor={colors.muted}
+            radius={5}
+          /><CustomInput
+          value={password}
+          setValue={setPassword}
+          secureTextEntry={true}
+          placeholder={"Password"}
+          placeholderTextColor={colors.muted}
+          radius={5}
+        /><CustomInput
+        value={password}
+        setValue={setPassword}
+        secureTextEntry={true}
+        placeholder={"Password"}
+        placeholderTextColor={colors.muted}
+        radius={5}
+      /><CustomInput
+      value={password}
+      setValue={setPassword}
+      secureTextEntry={true}
+      placeholder={"Password"}
+      placeholderTextColor={colors.muted}
+      radius={5}
+    /><CustomInput
+    value={password}
+    setValue={setPassword}
+    secureTextEntry={true}
+    placeholder={"Password"}
+    placeholderTextColor={colors.muted}
+    radius={5}
+  />
             <View style={styles.forgetPasswordContainer}>
               <Text
                 onPress={() => navigation.navigate("forgetpassword")}
